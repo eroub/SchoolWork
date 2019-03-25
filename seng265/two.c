@@ -30,12 +30,20 @@ int main(int argc, char *argv[]) {
         word[i] = NULL;
     }
     num = 0;
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> b37cfbad2ce737dffc543c96f823f01f55e3c2b6
     printf("Sentence? ");
     while (fgets(input, MAX_LINE_LEN, stdin)) {
         /* Get rid of trailing newline */
         input[strlen(input)-1] = '\0';
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b37cfbad2ce737dffc543c96f823f01f55e3c2b6
         t = strtok(input, " ");
         while (t != NULL) {
             printf("[%s]\n", t);
@@ -44,7 +52,11 @@ int main(int argc, char *argv[]) {
                 num++;
             }
             t = strtok(NULL, " ");
+<<<<<<< HEAD
         }
+=======
+        }   
+>>>>>>> b37cfbad2ce737dffc543c96f823f01f55e3c2b6
     }
 
     printf("Done. Here is what is in the 'word[]' array.\n");
