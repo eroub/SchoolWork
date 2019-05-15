@@ -1,1 +1,0 @@
-The magic numbers are... 57338, 114682, and 229370!
