@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+    - "node_modules"
+services:
+  - docker
+install:
+  - npm install
+
+after_success:
+  - docker login -u eroubekas -p software350 ; 
+    docker build -t eroubekas/seng350:latest . ;
+    docker push eroubekas/seng350:latest ;
