@@ -52,7 +52,7 @@
     "mongodb": "^3.3.3",
     "morgan": "~1.9.1",
     "node-cron": "^2.0.3",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "request": "^2.88.0",
     "save": "^2.4.0",
     "tslint-html-report": "^2.0.3",
